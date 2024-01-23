@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Management System</title>
+</head>
+
+<body>
+    <a href="SelectStudent">View Employee</a><br><br>
+    <a href="delete.html">Delete Record</a><br><br>
+    <a href="update.html">Update Record</a>
+    <form action="InsertStudent" method="post">
+        <h1>Registration Form</h1>
+        <p>Please Fill This Form To Create An Account!!!!</p>
+        <label>Full Name</label><input type="text" placeholder="Enter Full Name Here..." name="name" required><br><br>
+        <label>Email</label><input type="email" placeholder="Enter Email-ID" name="email" required><br><br>
+        <label>Password</label><input type="password" placeholder="Enter Password" name="password" required><br><br>
+        <label>Address</label><input type="text" placeholder="Enter Address" name="address" required><br><br>
+        <label>City</label>
+        <select name="city">
+            <option>Pimpri</option>
+            <option>Pune</option>
+            <option>Chinchwad</option>
+	            <option>Bhosari</option>
+        </select><br><br>
+        <label>Country</label>
+        <select name="country">
+            <option>India</option>
+            <option>England</option>
+            <option>Japan</option>
+            <option>Australia</option>
+        </select><br><br>
+        <input style="cursor:pointer;color:white;background-color:black;font-weight:bolder;" type="submit"
+            value="Register">
+    </form>
+</body>
+
+<style>
+    h1 {
+        width: 100%;
+        height: 20%;
+        background-color: black;
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    p {
+        width: 100%;
+        height: 30%;
+        color: green;
+        font-weight: bold;
+        position: relative;
+        top: 5px;
+    }
+
+    input {
+        width: 100%;
+        height: 50px;
+        background-color: lightgrey;
+        margin: 5px;
+    }
+
+    label {
+        font-weight: bolder;
+    }
+</style>
+
+</html>
